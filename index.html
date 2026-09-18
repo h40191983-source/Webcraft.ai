@@ -4,41 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebCraft AI - AI Business Website Builder</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #0f172a;
-            color: #f8fafc;
-        }
-        .gradient-text {
-            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .glass-card {
-            background: rgba(30, 41, 59, 0.7);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .gradient-btn {
-            background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
-            transition: all 0.3s ease;
-        }
-        .gradient-btn:hover {
-            opacity: 0.9;
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px -10px rgba(168, 85, 247, 0.5);
-        }
+        body { font-family: 'Poppins', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .gradient-text { background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-btn { background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); transition: all 0.3s ease; }
+        .gradient-btn:hover { opacity: 0.9; transform: translateY(-2px); box-shadow: 0 10px 20px -10px rgba(168, 85, 247, 0.5); }
     </style>
 </head>
 <body class="min-h-screen flex flex-col justify-between">
 
-    <!-- Header Navigation -->
     <header class="sticky top-0 z-50 glass-card border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <div class="flex items-center space-x-3">
@@ -47,70 +25,52 @@
                 </div>
                 <span class="text-2xl font-bold tracking-tight">WebCraft<span class="gradient-text">.AI</span></span>
             </div>
-            
             <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
                 <a href="#features" class="hover:text-indigo-400 transition">Features</a>
                 <a href="#demo" class="hover:text-indigo-400 transition">Live Demo Builder</a>
                 <a href="#pricing" class="hover:text-indigo-400 transition">Pricing Plans</a>
                 <a href="#earnings" class="hover:text-indigo-400 transition">Earning Calculator</a>
             </nav>
-
             <div class="flex items-center space-x-4">
-                <a href="#demo" class="hidden sm:inline-block px-5 py-2.5 rounded-lg border border-slate-700 hover:bg-slate-800 text-sm font-medium transition">
-                    Client Login
-                </a>
-                <a href="#demo" class="gradient-btn px-5 py-2.5 rounded-lg text-sm font-semibold text-white shadow-lg">
-                    Build Website Free
-                </a>
+                <a href="https://wa.me/175047568" class="hidden sm:inline-block px-5 py-2.5 rounded-lg border border-slate-700 hover:bg-slate-800 text-sm font-medium transition">Client Login</a>
+                <a href="#demo" class="gradient-btn px-5 py-2.5 rounded-lg text-sm font-semibold text-white shadow-lg">Build Website Free</a>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="relative pt-20 pb-16 overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-950/80 border border-indigo-800/50 text-indigo-400 text-xs font-semibold uppercase tracking-wider mb-8">
-                <i class="fa-solid fa-sparkles"></i> AI-Powered Business Builder v2.0
-            </span>
             <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
                 Build & Sell Websites for <br class="hidden sm:inline"/>
                 <span class="gradient-text">Local Businesses in 30 Seconds</span>
             </h1>
             <p class="max-w-2xl mx-auto text-lg text-slate-400 mb-10">
-                Generate high-converting websites for gyms, bakeries, salons, and law firms automatically with AI. Resell them to clients and keep 100% of your profits!
+                Generate high-converting websites automatically with AI. Resell them to clients and keep 100% of your profits!
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4 max-w-md mx-auto">
                 <a href="#demo" class="gradient-btn px-8 py-4 rounded-xl font-semibold text-lg flex items-center justify-center gap-2 shadow-xl">
                     <i class="fa-solid fa-bolt"></i> Try AI Demo
                 </a>
-                <a href="#earnings" class="px-8 py-4 rounded-xl font-semibold text-lg border border-slate-700 bg-slate-900/50 hover:bg-slate-800 transition flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-calculator"></i> Calculate Income
-                </a>
             </div>
         </div>
     </section>
 
-    <!-- AI Builder Demo Section -->
     <section id="demo" class="py-16 bg-slate-900/50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold text-white mb-4">Try The Instant Demo</h2>
                 <p class="text-slate-400">Type a business name below and watch the AI build a custom landing page instantly.</p>
             </div>
-
             <div class="grid lg:grid-cols-12 gap-8 items-start">
-                <!-- Controls -->
                 <div class="lg:col-span-4 glass-card p-6 rounded-2xl">
                     <h3 class="text-xl font-semibold mb-6 flex items-center gap-2">
                         <i class="fa-solid fa-sliders text-indigo-400"></i> Generator Setup
                     </h3>
-                    
                     <div class="space-y-4">
                         <div>
                             <label class="block text-sm text-slate-400 mb-2">Business Name</label>
                             <input type="text" id="bizName" value="Royal Bakehouse" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500">
                         </div>
-
                         <div>
                             <label class="block text-sm text-slate-400 mb-2">Category</label>
                             <select id="bizCategory" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-indigo-500">
@@ -120,7 +80,6 @@
                                 <option value="Tech Startup">Tech Startup</option>
                             </select>
                         </div>
-
                         <div>
                             <label class="block text-sm text-slate-400 mb-2">Theme Accent</label>
                             <div class="flex gap-3">
@@ -130,25 +89,12 @@
                                 <button onclick="setTheme('#f59e0b')" class="w-8 h-8 rounded-full bg-amber-500 border-2 border-white/20"></button>
                             </div>
                         </div>
-
                         <button onclick="generateDemo()" class="w-full gradient-btn py-3.5 rounded-lg font-semibold text-white mt-4 flex items-center justify-center gap-2">
                             <i class="fa-solid fa-wand-magic-sparkles"></i> Generate Website
                         </button>
                     </div>
                 </div>
-
-                <!-- Preview Frame -->
                 <div class="lg:col-span-8 glass-card p-4 rounded-2xl">
-                    <div class="flex items-center justify-between pb-4 mb-4 border-b border-slate-800 px-2">
-                        <div class="flex space-x-2">
-                            <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
-                            <div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
-                            <div class="w-3 h-3 rounded-full bg-green-500/80"></div>
-                        </div>
-                        <span class="text-xs text-slate-500 font-mono">live-preview-window.html</span>
-                    </div>
-
-                    <!-- Dynamic Preview Content -->
                     <div id="previewCanvas" class="bg-slate-950 rounded-xl p-8 border border-slate-800 min-h-[350px] transition-all">
                         <header class="flex justify-between items-center mb-8 pb-4 border-b border-slate-900">
                             <span id="previewTitle" class="text-2xl font-bold text-indigo-400">Royal Bakehouse</span>
@@ -165,14 +111,11 @@
         </div>
     </section>
 
-    <!-- Earnings Calculator Section -->
     <section id="earnings" class="py-16">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="glass-card p-8 rounded-3xl text-center">
                 <span class="text-indigo-400 font-semibold text-sm uppercase tracking-wider">Business Opportunity</span>
                 <h2 class="text-3xl font-bold mt-2 mb-4">How Much Can You Earn?</h2>
-                <p class="text-slate-400 mb-8">Build websites for small business owners and charge monthly maintenance fees.</p>
-
                 <div class="grid md:grid-cols-2 gap-8 items-center text-left mb-8">
                     <div class="space-y-6">
                         <div>
@@ -182,7 +125,6 @@
                             </div>
                             <input type="range" id="clientSlider" min="1" max="50" value="10" class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer" oninput="updateEarnings()">
                         </div>
-
                         <div>
                             <div class="flex justify-between mb-2">
                                 <label class="text-sm text-slate-300">Fee per Website (Monthly)</label>
@@ -191,96 +133,47 @@
                             <input type="range" id="feeSlider" min="50" max="500" step="10" value="100" class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer" oninput="updateEarnings()">
                         </div>
                     </div>
-
                     <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800 text-center">
                         <span class="text-slate-400 text-sm">Estimated Monthly Profit</span>
                         <div id="monthlyEarnings" class="text-4xl font-extrabold text-emerald-400 my-2">$1,000</div>
-                        <span class="text-xs text-slate-500">Yearly Earnings: <span id="yearlyEarnings" class="text-slate-300 font-semibold">$12,000</span></span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Pricing Section -->
     <section id="pricing" class="py-16 bg-slate-900/40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl font-bold mb-4">Simple, Transparent Pricing</h2>
-            <p class="text-slate-400 mb-12">Choose a plan that matches your ambition.</p>
-
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Starter -->
                 <div class="glass-card p-8 rounded-2xl flex flex-col justify-between">
                     <div>
                         <h3 class="text-xl font-bold text-white mb-2">Starter</h3>
-                        <p class="text-slate-400 text-sm mb-6">For single business owners</p>
                         <div class="text-4xl font-extrabold mb-6">$29<span class="text-sm font-normal text-slate-400">/mo</span></div>
-                        <ul class="text-left space-y-3 text-sm text-slate-300 mb-8">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> 1 AI Generated Site</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Free Hosting</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Basic Analytics</li>
-                        </ul>
                     </div>
-                    <button class="w-full py-3 rounded-lg border border-slate-700 hover:bg-slate-800 font-semibold">Get Started</button>
+                    <a href="https://wa.me/175047568?text=I want to buy the Starter plan for $29" class="w-full py-3 rounded-lg border border-slate-700 hover:bg-slate-800 font-semibold text-center transition">Get Started</a>
                 </div>
-
-                <!-- Agency / Reseller -->
                 <div class="glass-card p-8 rounded-2xl flex flex-col justify-between border-2 border-indigo-500 relative">
                     <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Most Popular</span>
                     <div>
                         <h3 class="text-xl font-bold text-white mb-2">Agency Partner</h3>
-                        <p class="text-slate-400 text-sm mb-6">For freelancers & agencies</p>
                         <div class="text-4xl font-extrabold mb-6">$99<span class="text-sm font-normal text-slate-400">/mo</span></div>
-                        <ul class="text-left space-y-3 text-sm text-slate-300 mb-8">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Unlimited Business Sites</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Custom Branding (White-Label)</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Export HTML/CSS Code</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Client Management Dashboard</li>
-                        </ul>
                     </div>
-                    <button class="w-full py-3 rounded-lg gradient-btn font-semibold text-white">Start Reselling</button>
+                    <a href="https://wa.me/175047568?text=I want to buy the Agency Partner plan for $99" class="w-full py-3 rounded-lg gradient-btn font-semibold text-white text-center transition">Start Reselling</a>
                 </div>
-
-                <!-- Enterprise -->
                 <div class="glass-card p-8 rounded-2xl flex flex-col justify-between">
                     <div>
                         <h3 class="text-xl font-bold text-white mb-2">Enterprise</h3>
-                        <p class="text-slate-400 text-sm mb-6">Custom scaling solutions</p>
                         <div class="text-4xl font-extrabold mb-6">$299<span class="text-sm font-normal text-slate-400">/mo</span></div>
-                        <ul class="text-left space-y-3 text-sm text-slate-300 mb-8">
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Dedicated API Access</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Priority 24/7 Support</li>
-                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Custom Domain Integrations</li>
-                        </ul>
                     </div>
-                    <button class="w-full py-3 rounded-lg border border-slate-700 hover:bg-slate-800 font-semibold">Contact Sales</button>
+                    <a href="https://wa.me/175047568?text=I want to buy the Enterprise plan for $299" class="w-full py-3 rounded-lg border border-slate-700 hover:bg-slate-800 font-semibold text-center transition">Contact Sales</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="border-t border-slate-800 bg-slate-950 py-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <div class="flex items-center space-x-2">
-                <div class="w-6 h-6 rounded gradient-btn flex items-center justify-center text-xs font-bold text-white">W</div>
-                <span class="font-bold text-slate-200">WebCraft.AI</span>
-            </div>
-            <p class="text-xs text-slate-500">© 2026 WebCraft AI, Inc. Built for Demonstration Purposes.</p>
-            <div class="flex space-x-6 text-slate-400 text-sm">
-                <a href="#" class="hover:text-white"><i class="fa-brands fa-github"></i></a>
-                <a href="#" class="hover:text-white"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#" class="hover:text-white"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Interactive Scripts -->
     <script>
-        let selectedColor = '#6366f1';
-
         function setTheme(color) {
-            selectedColor = color;
             document.getElementById('previewTitle').style.color = color;
             document.getElementById('previewBtn').style.backgroundColor = color;
             document.getElementById('previewCta').style.backgroundColor = color;
@@ -289,29 +182,31 @@
         function generateDemo() {
             const name = document.getElementById('bizName').value || 'My Business';
             const cat = document.getElementById('bizCategory').value;
-
             document.getElementById('previewTitle').innerText = name;
             
             if(cat === 'Bakery & Cafe') {
                 document.getElementById('previewHeading').innerText = "Freshly Baked Delights Every Day";
-                document.getElementById('previewSub').innerText = "Welcome to " + name + ". We serve premium artisanal breads, cakes, and hand-crafted beverages.";
+                document.getElementById('previewSub').innerText = "Welcome to " + name + ". We serve premium artisanal breads and cakes.";
             } else if(cat === 'Fitness Gym') {
                 document.getElementById('previewHeading').innerText = "Transform Your Body & Mind";
-                document.getElementById('previewSub').innerText = "Join " + name + " today for state-of-the-art equipment, expert personal trainers, and high-energy classes.";
+                document.getElementById('previewSub').innerText = "Join " + name + " today for state-of-the-art equipment and expert trainers.";
             } else if(cat === 'Hair & Beauty Salon') {
                 document.getElementById('previewHeading').innerText = "Style & Luxury You Deserve";
-                document.getElementById('previewSub').innerText = "At " + name + ", we specialize in modern haircuts, coloring, skincare, and rejuvenating spa treatments.";
+                document.getElementById('previewSub').innerText = "At " + name + ", we specialize in modern haircuts and rejuvenating spa treatments.";
             } else if(cat === 'Tech Startup') {
                 document.getElementById('previewHeading').innerText = "Next-Gen Digital Solutions";
-                document.getElementById('previewSub').innerText = name + " delivers cutting-edge software and automation tools built to scale your enterprise.";
+                document.getElementById('previewSub').innerText = name + " delivers cutting-edge software built to scale your enterprise.";
             }
         }
 
         function updateEarnings() {
             const clients = parseInt(document.getElementById('clientSlider').value);
             const fee = parseInt(document.getElementById('feeSlider').value);
-
             document.getElementById('clientCountText').innerText = clients + " Clients";
             document.getElementById('feeText').innerText = "$" + fee;
-
-        I
+            document.getElementById('monthlyEarnings').innerText = "$" + (clients * fee).toLocaleString('en-US');
+        }
+    </script>
+</body>
+                        </html>
+                        

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,7 +43,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <div class="flex items-center space-x-3">
                 <div class="w-10 h-10 rounded-xl gradient-btn flex items-center justify-center text-white font-bold text-xl">
-                    <i class="fa-solid font-wand-magic-sparkles"></i> W
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
                 </div>
                 <span class="text-2xl font-bold tracking-tight">WebCraft<span class="gradient-text">.AI</span></span>
             </div>
@@ -186,16 +186,16 @@
                         <div>
                             <div class="flex justify-between mb-2">
                                 <label class="text-sm text-slate-300">Fee per Website (Monthly)</label>
-                                <span id="feeText" class="text-indigo-400 font-bold">₹3,000</span>
+                                <span id="feeText" class="text-indigo-400 font-bold">$100</span>
                             </div>
-                            <input type="range" id="feeSlider" min="1000" max="10000" step="500" value="3000" class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer" oninput="updateEarnings()">
+                            <input type="range" id="feeSlider" min="50" max="500" step="10" value="100" class="w-full h-2 bg-slate-700 rounded-lg appearance-none cursor-pointer" oninput="updateEarnings()">
                         </div>
                     </div>
 
                     <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800 text-center">
                         <span class="text-slate-400 text-sm">Estimated Monthly Profit</span>
-                        <div id="monthlyEarnings" class="text-4xl font-extrabold text-emerald-400 my-2">₹30,000</div>
-                        <span class="text-xs text-slate-500">Yearly Earnings: <span id="yearlyEarnings" class="text-slate-300 font-semibold">₹3,60,000</span></span>
+                        <div id="monthlyEarnings" class="text-4xl font-extrabold text-emerald-400 my-2">$1,000</div>
+                        <span class="text-xs text-slate-500">Yearly Earnings: <span id="yearlyEarnings" class="text-slate-300 font-semibold">$12,000</span></span>
                     </div>
                 </div>
             </div>
@@ -214,7 +214,7 @@
                     <div>
                         <h3 class="text-xl font-bold text-white mb-2">Starter</h3>
                         <p class="text-slate-400 text-sm mb-6">For single business owners</p>
-                        <div class="text-4xl font-extrabold mb-6">₹999<span class="text-sm font-normal text-slate-400">/mo</span></div>
+                        <div class="text-4xl font-extrabold mb-6">$29<span class="text-sm font-normal text-slate-400">/mo</span></div>
                         <ul class="text-left space-y-3 text-sm text-slate-300 mb-8">
                             <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> 1 AI Generated Site</li>
                             <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Free Hosting</li>
@@ -230,7 +230,7 @@
                     <div>
                         <h3 class="text-xl font-bold text-white mb-2">Agency Partner</h3>
                         <p class="text-slate-400 text-sm mb-6">For freelancers & agencies</p>
-                        <div class="text-4xl font-extrabold mb-6">₹2,999<span class="text-sm font-normal text-slate-400">/mo</span></div>
+                        <div class="text-4xl font-extrabold mb-6">$99<span class="text-sm font-normal text-slate-400">/mo</span></div>
                         <ul class="text-left space-y-3 text-sm text-slate-300 mb-8">
                             <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Unlimited Business Sites</li>
                             <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Custom Branding (White-Label)</li>
@@ -246,7 +246,7 @@
                     <div>
                         <h3 class="text-xl font-bold text-white mb-2">Enterprise</h3>
                         <p class="text-slate-400 text-sm mb-6">Custom scaling solutions</p>
-                        <div class="text-4xl font-extrabold mb-6">₹7,999<span class="text-sm font-normal text-slate-400">/mo</span></div>
+                        <div class="text-4xl font-extrabold mb-6">$299<span class="text-sm font-normal text-slate-400">/mo</span></div>
                         <ul class="text-left space-y-3 text-sm text-slate-300 mb-8">
                             <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Dedicated API Access</li>
                             <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400"></i> Priority 24/7 Support</li>
@@ -312,4 +312,6 @@
             const fee = parseInt(document.getElementById('feeSlider').value);
 
             document.getElementById('clientCountText').innerText = clients + " Clients";
-            document.getElementById('feeText').innerText =
+            document.getElementById('feeText').innerText = "$" + fee;
+
+        I

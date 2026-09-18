@@ -1,0 +1,6 @@
+<html>
+<style>
+   div{min-height:1em;}
+</style>
+<body>html {<br/>  height: 100%;<br/>  background: 50% 50% no-repeat<br/>    url(&#39;data:image/svg+xml,&lt;svg viewBox=&quot;-20 -5 60 40&quot; width=&quot;140&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; opacity=&quot;0.2&quot;&gt;&lt;path d=&quot;M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-linejoin=&quot;round&quot; stroke-width=&quot;2&quot;/&gt;&lt;text x=&quot;-12&quot; y=&quot;32&quot; font-size=&quot;5&quot; font-family=&quot;monospace&quot; fill=&quot;currentColor&quot;&gt;Built on CodePen&lt;/text&gt;&lt;/svg&gt;&#39;);<br/>}</body>
+</html>
